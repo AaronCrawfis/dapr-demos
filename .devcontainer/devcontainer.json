@@ -17,8 +17,8 @@
 	"extensions": [
 		"ms-python.python",
 		"ms-azuretools.vscode-dapr",
-        "ms-azuretools.vscode-docker",
-        "cweijan.vscode-redis-client"
+        	"ms-azuretools.vscode-docker",
+        	"cweijan.vscode-redis-client"
 	],
 	
 	"mounts": [ 
@@ -30,5 +30,5 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
-	// "remoteUser": "vscode"
+	"remoteUser": "vscode"
 }
